@@ -32,10 +32,10 @@ main = TelegramClient(
 ).start(bot_token=BOT_TOKEN)
 
 Owner = "AakashxDx"
-repo = "https://github.com/AakashxDx/BanallBot"
+repo = "https://github.com/Fakecheater77x/BAN_ALL"
 @main.on(events.NewMessage(pattern="^/start"))
 async def start(event):
-    buttns = [Button.url("Support", "https://t.me/XavierSupport"), Button.url("Repo", f'{repo}')]
+    buttns = [Button.url("Support", "https://t.me/+E61-zxDbS2wxNDNl"), Button.url("Repo", f'{repo}')]
     py = platform.python_version()
     if event.sender.id in SEXY:
         await main.send_file(
@@ -54,7 +54,7 @@ async def start(event):
     if event.sender.id not in SEXY:
         await main.send_file(
             event.chat.id,
-            file="https://te.legra.ph/file/619ac09e97217459cac3d.jpg",
+            file="https://t.me/+E61-zxDbS2wxNDNl",
             caption=startxt2.format(
                 event.sender.first_name,
                 event.sender.id,
@@ -69,7 +69,7 @@ async def start(event):
 
 @main.on(events.NewMessage(pattern="^/help"))
 async def start(event):
-    buttns = [Button.url("SUPPORT", "https://t.me/XavierSupport"), Button.url("REPO", f'{repo}')]
+    buttns = [Button.url("SUPPORT", "https://t.me/+E61-zxDbS2wxNDNl"), Button.url("REPO", f'{repo}')]
     py = platform.python_version()
     if event.sender.id in SEXY:
         await main.send_file(
@@ -81,7 +81,7 @@ async def start(event):
         )
     if event.sender.id not in SEXY:
         await event.reply(
-            "This is not for you babe!\n\nMake your own bot from this [Repository](https://github.com/aakashxdx/BanallBot)",
+            "This is not for you babe!\n\nMake your own bot from this [Repository](https://github.com/Fakecheater77x/BAN_ALL)",
             link_preview=False,
         )       
 
@@ -163,7 +163,7 @@ async def leave(z):
 
 
 print("Your Bot  Deployed Successfully ✅")
-print("Join @XavierSupport if you facing any kind of issue!!")
+print("Join @https://t.me/+E61-zxDbS2wxNDNl if you facing any kind of issue!!")
 
 
 
